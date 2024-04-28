@@ -51,7 +51,6 @@
     font-size: 26px;
     color: var(--original-black);
     text-decoration-line: none;
-   
 }
 
 
@@ -251,7 +250,7 @@
     padding-top: 27px;
     padding-bottom: 27px;
     padding-right: 132px;
-    transform: translate(-100%);   
+    transform: translateY(100%);   
     color:var(--original-white);
     background-color: rgba(47, 48, 58, 0.8);
     transition: cubic-bezier(0.4, 0, 0.2, 1);
@@ -259,9 +258,7 @@
 }
 
 .activity-card:hover .overlay {
-    transform: translate(0); 
-     
-
+    transform: translateY(0); 
 }
 
 .team {
@@ -559,7 +556,6 @@
 .blue-overlay {
     position: absolute;
     bottom: 0%;
-    
     width: 370px;
     height: 294px;
     transform: translateY(100%);
@@ -577,10 +573,10 @@
     transition-duration: 250ms;  
 }
 
-.cards__item:hover .blue-overlay {
+.cards-box:hover .blue-overlay {
     transform: translateY(0);
-    
 }
+
 
 .cards__box:hover, .cards__box:focus {
     border: 1px solid #eee;
