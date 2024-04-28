@@ -62,7 +62,7 @@
     
         <div class="title-section">
             <h1 class="title-section__text">EFFECTIVE SOLUTIONS FOR<br>YOUR BUSINESS</h1>>
-            <button class="title-section__button" type="button">Request our service</button>
+            <button data-modal-open class="title-section__button" type="button">Request our service</button>
         </div>
 
 
@@ -113,21 +113,33 @@
             <!--Container cu poze a activitatii-->
 
             <div class="activity__pictures">
-                <img 
-                src="./images/box-1.jpg" 
-                alt="hands typing image"
-                width="370"
-                >
-                <img 
-                src="./images/box-2.jpg" 
-                alt="person connecting phone to computer image"
-                width="370"
-                >
-                <img 
-                src="./images/box-3.jpg" 
-                alt="holding a tablet showing colors image"
-                width="370"
-                >
+                <div class="activity-card">
+                    <div class="overlay">
+                        DESKTOP APP
+                    </div>
+                    
+                    <img 
+                    src="./images/box-1.jpg" 
+                    alt="hands typing image"
+                    width="370">
+                </div>
+
+                <div class="activity-card">
+                    <div class="overlay">MOBILE APPS</div>
+                    <img 
+                    src="./images/box-2.jpg" 
+                    alt="person connecting phone to computer image"
+                    width="370">
+                </div>
+                
+                <div class="activity-card">
+                    <div class="overlay">DESIGN SOLUTIONS</div>
+                    <img 
+                    src="./images/box-3.jpg" 
+                    alt="holding a tablet showing colors image"
+                    width="370">
+                </div>
+                
             </div>
             
         </section>
@@ -408,6 +420,20 @@
         
 
     </footer>
+
+    <div data-modal class="is-hidden">
+
+        <div data-modal-content>
+            <h3>whatever</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus at sequi odit totam voluptates culpa dolores! Commodi rerum libero eum qui, sequi tempore reiciendis ipsam? Officiis a culpa excepturi.</p>
+            <button data-modal-close type="button">x</button>
+
+        </div>
+
+
+    </div>
+
+    <script src="./modal.js"></script>
 
     
 </div>
