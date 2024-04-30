@@ -100,7 +100,9 @@
     font-size: 14px;
     color: var(--grey);
     transition: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 250ms;   
+    transition-duration: 250ms; 
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;  
 }
 
 .header__info a:hover, .header__info a:focus {
@@ -111,12 +113,16 @@
     width: 16px;
     height: 13px;
     fill:var(--grey)
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 .envelope-icon {
     width: 16px;
     height: 13px;
     fill: var(--grey)
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 
 }
 
@@ -231,8 +237,7 @@
     display:flex;
     justify-content: center;
     gap: 30px;
-    
-   
+
 }
 
 .activity-card {
@@ -249,10 +254,9 @@
     padding-left: 132px;
     padding-top: 27px;
     padding-bottom: 27px;
-    padding-right: 132px;
-    transform: translateY(100%);   
     color:var(--original-white);
     background-color: rgba(47, 48, 58, 0.8);
+    transform: translateY(100%);   
     transition: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 250ms;
 }
@@ -302,6 +306,8 @@
 .containers__list li {
     padding:12px;
     border-radius: 50px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 
 }
 
@@ -368,13 +374,14 @@
 .regulars__list li {
     border:1px solid;
     border-color: #afb1b8;
-    
     width: 170px;
     height: 92px;
     padding-top: 16px;
     padding-left: 32px;  
     padding-right: 32px;
-    padding-bottom: 16px;  
+    padding-bottom: 16px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;  
 }
 
 .regulars__list li:hover {
@@ -477,6 +484,8 @@
     background-color: rgba(255, 255, 255, 0.1);
     padding:12px;
     border-radius: 50px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 .social__list li:hover, .social__list:focus {
@@ -511,6 +520,8 @@
     padding-right:22px;
     padding-top:6px;
     padding-bottom:6px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
 }
 
 .categories__item:hover {
@@ -577,8 +588,7 @@
     transform: translateY(0);
 }
 
-
-.cards__box:hover, .cards__box:focus {
+.cards-box:hover, .cards-box:focus {
     border: 1px solid #eee;
 }
 
@@ -617,7 +627,8 @@
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    transition-duration: 1s;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms; 
     padding: 20px;
 
 }
